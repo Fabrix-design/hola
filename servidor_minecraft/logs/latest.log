@@ -1,18 +1,18 @@
-[22:07:02] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:07:07] [ServerMain/INFO]: Loaded 7 recipes
-[22:07:07] [ServerMain/INFO]: Loaded 1271 advancements
-[22:07:09] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[22:07:09] [Server thread/INFO]: Loading properties
-[22:07:09] [Server thread/INFO]: Default game type: SURVIVAL
-[22:07:09] [Server thread/INFO]: Generating keypair
-[22:07:09] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:07:09] [Server thread/INFO]: Using epoll channel type
-[22:07:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:07:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:07:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:07:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:07:10] [Server thread/INFO]: Preparing level "world"
-[22:07:10] [Server thread/ERROR]: Failed to load random sequence salt
+[22:14:31] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:14:34] [ServerMain/INFO]: Loaded 7 recipes
+[22:14:34] [ServerMain/INFO]: Loaded 1271 advancements
+[22:14:34] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[22:14:34] [Server thread/INFO]: Loading properties
+[22:14:34] [Server thread/INFO]: Default game type: SURVIVAL
+[22:14:34] [Server thread/INFO]: Generating keypair
+[22:14:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:14:35] [Server thread/INFO]: Using epoll channel type
+[22:14:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:14:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:14:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:14:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:14:35] [Server thread/INFO]: Preparing level "world"
+[22:14:35] [Server thread/ERROR]: Failed to load random sequence salt
 java.util.NoSuchElementException: No value present
 	at java.util.Optional.get(Optional.java:143) ~[?:?]
 	at bed.a(SourceFile:103) ~[server-1.20.1.jar:?]
@@ -29,7 +29,7 @@ java.util.NoSuchElementException: No value present
 	at net.minecraft.server.MinecraftServer.w(SourceFile:646) ~[server-1.20.1.jar:?]
 	at net.minecraft.server.MinecraftServer.a(SourceFile:265) ~[server-1.20.1.jar:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[22:07:10] [Server thread/ERROR]: Failed to load random sequence include_sequence_id
+[22:14:35] [Server thread/ERROR]: Failed to load random sequence include_sequence_id
 java.util.NoSuchElementException: No value present
 	at java.util.Optional.get(Optional.java:143) ~[?:?]
 	at bed.a(SourceFile:103) ~[server-1.20.1.jar:?]
@@ -46,7 +46,7 @@ java.util.NoSuchElementException: No value present
 	at net.minecraft.server.MinecraftServer.w(SourceFile:646) ~[server-1.20.1.jar:?]
 	at net.minecraft.server.MinecraftServer.a(SourceFile:265) ~[server-1.20.1.jar:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[22:07:10] [Server thread/ERROR]: Failed to load random sequence sequences
+[22:14:35] [Server thread/ERROR]: Failed to load random sequence sequences
 java.util.NoSuchElementException: No value present
 	at java.util.Optional.get(Optional.java:143) ~[?:?]
 	at bed.a(SourceFile:103) ~[server-1.20.1.jar:?]
@@ -63,7 +63,7 @@ java.util.NoSuchElementException: No value present
 	at net.minecraft.server.MinecraftServer.w(SourceFile:646) ~[server-1.20.1.jar:?]
 	at net.minecraft.server.MinecraftServer.a(SourceFile:265) ~[server-1.20.1.jar:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[22:07:10] [Server thread/ERROR]: Failed to load random sequence include_world_seed
+[22:14:35] [Server thread/ERROR]: Failed to load random sequence include_world_seed
 java.util.NoSuchElementException: No value present
 	at java.util.Optional.get(Optional.java:143) ~[?:?]
 	at bed.a(SourceFile:103) ~[server-1.20.1.jar:?]
@@ -80,158 +80,80 @@ java.util.NoSuchElementException: No value present
 	at net.minecraft.server.MinecraftServer.w(SourceFile:646) ~[server-1.20.1.jar:?]
 	at net.minecraft.server.MinecraftServer.a(SourceFile:265) ~[server-1.20.1.jar:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[22:07:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 2], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 3], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 4], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 5], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 6], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 7], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 8], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 9], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, 2], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, 3], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, 4], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, 5], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, 6], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, 7], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, 8], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, 9], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [8, 2], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [8, 3], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [8, 4], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [8, 5], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [8, 6], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [8, 7], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [8, 8], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [8, 9], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [9, 2], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [9, 3], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [9, 4], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [9, 5], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [9, 6], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [9, 7], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [9, 8], discarding
-[22:07:21] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [9, 9], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, 2], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [11, 2], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [12, 2], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, 3], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [11, 3], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [12, 3], discarding
-[22:07:22] [Server thread/ERROR]: Unknown structure start: minecraft:trial_chambers
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, 4], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [11, 4], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [12, 4], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, 5], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [11, 5], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [12, 5], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, 6], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [11, 6], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [12, 6], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, 7], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [11, 7], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [12, 7], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, 8], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [11, 8], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [12, 8], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [13, 2], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [13, 3], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [13, 4], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [13, 5], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [13, 6], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [13, 7], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [13, 8], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, 9], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [11, 9], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [12, 9], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [13, 9], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [14, 2], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [14, 3], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [14, 4], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [14, 5], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [14, 6], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [14, 7], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [14, 8], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [14, 9], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [15, 2], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [15, 3], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [15, 4], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [15, 5], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [15, 6], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [15, 7], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [15, 8], discarding
-[22:07:22] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [15, 9], discarding
-[22:07:23] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, -25], discarding
-[22:07:23] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [8, -25], discarding
-[22:07:23] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [9, -25], discarding
-[22:07:23] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, -25], discarding
-[22:07:23] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [11, -25], discarding
-[22:07:24] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [12, -25], discarding
-[22:07:24] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [13, -25], discarding
-[22:07:24] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [14, -25], discarding
-[22:07:24] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [15, -25], discarding
-[22:07:24] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [16, -25], discarding
-[22:07:24] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -11], discarding
-[22:07:24] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -10], discarding
-[22:07:24] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -9], discarding
-[22:07:24] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -18], discarding
-[22:07:24] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -17], discarding
-[22:07:24] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -16], discarding
-[22:07:24] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -15], discarding
-[22:07:24] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -14], discarding
-[22:07:24] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -13], discarding
-[22:07:24] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -12], discarding
-[22:07:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:07:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:07:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:07:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:07:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:07:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:07:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:07:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:07:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:07:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:07:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:07:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:07:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:07:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:07:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:07:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:07:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:07:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:trial_spawner
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:trial_spawner
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:vault
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:vault
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:vault
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:vault
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:trial_spawner
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:trial_spawner
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:vault
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:vault
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:trial_spawner
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:vault
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:vault
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:vault
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:trial_spawner
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:trial_spawner
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:trial_spawner
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:vault
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:trial_spawner
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:trial_spawner
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:vault
-[22:07:26] [Server thread/WARN]: Skipping BlockEntity with id minecraft:vault
-[22:07:26] [Server thread/INFO]: Time elapsed: 9039 ms
-[22:07:26] [Server thread/INFO]: Done (16.381s)! For help, type "help"
-[22:13:23] [Server thread/INFO]: Stopping the server
-[22:13:23] [Server thread/INFO]: Stopping server
-[22:13:23] [Server thread/INFO]: Saving players
-[22:13:23] [Server thread/INFO]: Saving worlds
-[22:13:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:13:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:13:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:13:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:13:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:13:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:13:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:14:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:14:45] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -18], discarding
+[22:14:45] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -17], discarding
+[22:14:45] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -16], discarding
+[22:14:45] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -15], discarding
+[22:14:45] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -14], discarding
+[22:14:45] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -13], discarding
+[22:14:45] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -12], discarding
+[22:14:45] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -11], discarding
+[22:14:45] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -10], discarding
+[22:14:45] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -9], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 9], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, 9], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [8, 9], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [13, 2], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [14, 2], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [15, 2], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [13, 3], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [14, 3], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [15, 3], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [13, 4], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [14, 4], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [15, 4], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [13, 5], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [14, 5], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [15, 5], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [13, 6], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [14, 6], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [15, 6], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [13, 7], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [14, 7], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [15, 7], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [13, 8], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [14, 8], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [15, 8], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [9, 9], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, 9], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [11, 9], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [12, 9], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [13, 9], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [14, 9], discarding
+[22:14:46] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [15, 9], discarding
+[22:14:47] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, -25], discarding
+[22:14:47] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [8, -25], discarding
+[22:14:47] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [9, -25], discarding
+[22:14:47] [Server thread/WARN]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, -25], discarding
+[22:14:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:14:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:14:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:14:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:14:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:14:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:14:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:14:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:14:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:14:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:14:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:14:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:14:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:14:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:14:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:14:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:14:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:14:49] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[22:14:50] [Server thread/INFO]: Time elapsed: 8887 ms
+[22:14:50] [Server thread/INFO]: Done (14.789s)! For help, type "help"
+[22:26:53] [Server thread/INFO]: Stopping the server
+[22:26:53] [Server thread/INFO]: Stopping server
+[22:26:53] [Server thread/INFO]: Saving players
+[22:26:53] [Server thread/INFO]: Saving worlds
+[22:26:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:26:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:26:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:26:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:26:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:26:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:26:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

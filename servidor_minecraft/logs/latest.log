@@ -1,0 +1,54 @@
+[01:23:58] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
+[01:23:59] [main/INFO]: Loading 10 mods:
+	- fabricloader 0.16.3
+	   \-- mixinextras 0.4.1
+	- java 21
+	- minecraft 1.21.1
+	- voicechat 1.21.1-2.5.27
+	   |-- fabric-api-base 0.4.42+6573ed8c6a
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd96a
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a76a
+	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df3606a
+	   |-- fabric-networking-api-v1 4.2.2+60c3209b6a
+	   \-- fabric-resource-loader-v0 1.3.0+565991296a
+[01:23:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/hola/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[01:23:59] [main/INFO]: Compatibility level set to JAVA_17
+[01:24:00] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[01:24:05] [main/INFO]: [voicechat] Compatibility version 18
+[01:24:05] [main/INFO]: [voicechat] Loading plugins
+[01:24:05] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[01:24:05] [main/INFO]: [voicechat] Initializing plugins
+[01:24:05] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[01:24:05] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:24:07] [main/INFO]: Loaded 1290 recipes
+[01:24:07] [main/INFO]: Loaded 1399 advancements
+[01:24:07] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[01:24:07] [Server thread/INFO]: Loading properties
+[01:24:07] [Server thread/INFO]: Default game type: SURVIVAL
+[01:24:07] [Server thread/INFO]: Generating keypair
+[01:24:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:24:08] [Server thread/INFO]: Using epoll channel type
+[01:24:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:24:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:24:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:24:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:24:08] [Server thread/INFO]: Preparing level "world"
+[01:24:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:24:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:24:11] [Worker-Main-1/INFO]: Preparing spawn area: 6%
+[01:24:11] [Worker-Main-3/INFO]: Preparing spawn area: 73%
+[01:24:11] [Server thread/INFO]: Time elapsed: 1075 ms
+[01:24:11] [Server thread/INFO]: Done (3.693s)! For help, type "help"
+[01:24:11] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[01:24:11] [VoiceChatServerThread/ERROR]: [voicechat] Failed to bind to address '172.30.124.31', binding to wildcard IP instead
+[01:24:11] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 172.30.124.31:24454
+[01:29:37] [Server thread/INFO]: troll_face300[/100.65.162.112:34506] logged in with entity id 9 at (-476.24137925256565, 63.0, -526.3896572399739)
+[01:29:37] [Server thread/INFO]: troll_face300 joined the game
+[01:41:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-464, y=59, z=-439} class_2338{x=-464, y=59, z=-440}
+[01:45:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-459, y=51, z=-443} class_2338{x=-459, y=51, z=-444}
+[01:46:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-462, y=51, z=-442} class_2338{x=-462, y=52, z=-442}
+[01:46:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-462, y=50, z=-442} class_2338{x=-462, y=51, z=-441}
+[01:46:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-462, y=51, z=-442} class_2338{x=-462, y=51, z=-441}
+[01:58:37] [Server thread/INFO]: troll_face300 lost connection: Disconnected
+[01:58:37] [Server thread/INFO]: troll_face300 left the game
+[01:58:37] [Server thread/INFO]: [voicechat] Disconnecting client troll_face300
